@@ -25,6 +25,8 @@
  * Attribution: Animate CSS, Twitter Bootstrap, Materialize CSS, Normalize CSS, Waves JS, WOW JS, Toastr, Chart.js
  *
  */
+
+ 
 .mdb-color.lighten-5 {
   background-color: #d0d6e2 !important; }
 
@@ -88,8 +90,10 @@
 .red {
   background-color: #f44336 !important; }
 
-.red-text {
-  color: #f44336 !important; }
+.brand-text {
+  color: #DAA520  !important; }
+
+
 
 .rgba-red-slight,
 .rgba-red-slight:after {
@@ -241,6 +245,10 @@
 .purple.accent-4 {
   background-color: #a0f !important; }
 
+.dark-skin {
+  background-color: #030200;
+}
+
 .deep-purple.lighten-5 {
   background-color: #ede7f6 !important; }
 
@@ -375,6 +383,10 @@
 
 .blue-text {
   color: #2196f3 !important; }
+
+.brand-text {
+  color: #DAA520 !important;
+}
 
 .rgba-blue-slight,
 .rgba-blue-slight:after {
@@ -1170,10 +1182,14 @@
   background-color: rgba(62, 69, 81, 0.7); }
 
 .primary-color, ul.stepper li.active a .circle, ul.stepper li.completed a .circle {
-  background-color: #4285f4 !important; }
+  background-color: #DAA520 !important; }
 
 .primary-color-dark {
-  background-color: #0d47a1 !important; }
+  background-color: #DAA520 !important; }
+
+.brand-color {
+    background-color : #DAA520 !important;
+}
 
 .secondary-color {
   background-color: #a6c !important; }
@@ -4125,9 +4141,9 @@ table.table a.btn.btn-black {
   border-radius: 50%; }
 
 .pagination.pg-blue .page-item.active .page-link {
-  background-color: #4285f4; }
+  background-color: #DAA520; }
   .pagination.pg-blue .page-item.active .page-link:hover {
-    background-color: #4285f4; }
+    background-color: #DAA520; }
 
 .pagination.pg-red .page-item.active .page-link {
   background-color: #ff3547; }
@@ -10179,8 +10195,9 @@ select {
     box-shadow: none; }
 
 .white-skin .gradient {
-  background: #ababab;
-  background: linear-gradient(135deg, #ababab 0%, #fff 100%); }
+  background: #030200;
+  background: linear-gradient(135deg, #ababab 0%, #fff 100%);
+ }
 
 .white-skin .primary-color, .white-skin ul.stepper li.active a .circle, ul.stepper li.active a .white-skin .circle, .white-skin ul.stepper li.completed a .circle, ul.stepper li.completed a .white-skin .circle {
   background-color: #4285f4 !important; }
